@@ -7,9 +7,8 @@
   <p class="lg" style="text-align:center;">Wanna keep up with Bao? Download the app and see what he's up to</p>
   <button
     onclick={() => {
-      // let testflightLink = "https://testflight.apple.com/join/bfP5QSEK";
-      // window.open(testflightLink);
-      alert("Coming soon!")
+      let testflightLink = "https://testflight.apple.com/join/XYbB7YSU";
+      window.open(testflightLink);
     }}>Help Test!</button
   >
 </div>
