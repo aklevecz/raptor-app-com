@@ -4,13 +4,15 @@
   import { onDestroy, onMount } from "svelte";
   import "../app.css";
   import { on } from "svelte/events";
+  import { browser } from "$app/environment";
   /** @type {{data:import('./$types').LayoutData, children: any}} */
   let { children } = $props();
 
   /** @type {number | null} */
   let containerHeight = $state(null);
-  
+
   const calculateContainerHeight = () => {
+    if (!browser) return;
     /** @type {HTMLElement | null} */
     const header = document.querySelector(".header");
     /** @type {HTMLElement | null} */
@@ -25,11 +27,13 @@
   };
 
   onMount(() => {
+    if (!browser) return;
     calculateContainerHeight();
     window.addEventListener("resize", calculateContainerHeight);
   });
 
   onDestroy(() => {
+    if (!browser) return;
     window.removeEventListener("resize", calculateContainerHeight);
   });
 </script>
