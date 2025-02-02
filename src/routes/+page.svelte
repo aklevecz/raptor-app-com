@@ -1,0 +1,36 @@
+<script>
+</script>
+
+<!-- <div style="margin-bottom:1rem;"></div> -->
+<div class="centered-block col-1half">
+  <img class="smiler" src="raptor-logo.png" alt="smiler" />
+  <p class="lg" style="text-align:center;">Wanna keep up with Bao? Download the app and see what he's up to</p>
+  <button
+    onclick={() => {
+      // let testflightLink = "https://testflight.apple.com/join/bfP5QSEK";
+      // window.open(testflightLink);
+      alert("Coming soon!")
+    }}>Help Test!</button
+  >
+</div>
+<div style="flex:1 0 100%;text-align:center;height:100px;margin-top:4rem;">
+  <img style="max-width:300px;" src="yaytso-logo-svg.svg" alt="yaytso" /><br />
+  2684 Lacy St. #109<br />
+  Los Angeles, 90031
+</div>
+
+<style>
+  .col-1half {
+    flex: 1 0 45%;
+  }
+  .smiler {
+    width: 200px;
+    height: 200px;
+  }
+
+  @media (min-width: 768px) {
+    p {
+      max-width: 500px;
+    }
+  }
+</style>

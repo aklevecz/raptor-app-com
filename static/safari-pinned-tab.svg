@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+     width="16pt" height="16pt" viewBox="0 0 16 16"
+     preserveAspectRatio="xMidYMid meet">
+  <g transform="translate(0,16) scale(0.1,-0.1)"
+     fill="#000000" stroke="none">
+    <!-- Simple raptor silhouette - you might want to customize this -->
+    <path d="M80 120 l-30 -30 v-20 l30 30 l30 -30 v20 l-30 30"/>
+  </g>
+</svg>

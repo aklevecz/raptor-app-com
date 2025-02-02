@@ -1,0 +1,59 @@
+:root {
+  --red: #ff4d4d;
+  --charcoal: #333333;
+  --yellow: #ffc85a;
+  
+  --primary-color: var(--red);
+  --accent-color: var(--yellow);
+}
+
+body {
+  font-family: SF Pro Rounded;
+  margin: 0;
+  padding: 0;
+  background-color: red;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+div, p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+div.lg, p.lg {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+button {
+  background-color: var(--accent-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-family: SF Pro Rounded;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.centered-block {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: var(--accent-color);
+}
