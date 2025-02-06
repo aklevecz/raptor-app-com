@@ -50,7 +50,7 @@
   {#if hasMounted}
     <div class="container">
         <img src="/raptor-logo.png" alt="Raptor Logo" style="width:150px;"/>
-        <h2>To use the Raptor App, you will install the beta using Testflight</h2>
+        <h2>To use the Raptor App, you will install it in Testflight</h2>
         <button on:click={handleTestFlightClick}>
             Open Testflight & Install Raptor App
         </button>
@@ -58,9 +58,8 @@
         {#if showInstructions}
             <div class="instructions">
                 {#if !isIOS}
-                    <p>To join the beta test:</p>
+                    <p>You need to install Testflight:</p>
                     <ol>
-                        <li>Open this page on your iOS device</li>
                         <li>
                             <a href="https://apps.apple.com/us/app/testflight/id899247664"
                                target="_blank"

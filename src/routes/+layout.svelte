@@ -78,7 +78,7 @@
   <link rel="canonical" href="https://app.raptor.pizza/" />
 </svelte:head>
 <div class="header">
-  <h2>raptor app</h2>
+  <h2>Raptor App</h2>
   <div class="desk-nav-links"><NavLinks /></div>
 </div>
 <div class="container" style="--container-full-height: {containerHeight}px;">
@@ -88,7 +88,7 @@
 <footer>
   <img src="raptor-logo.png" alt="raptor" />
   <div>
-    <h1>raptor app</h1>
+    <h1>Raptor App</h1>
     <div>Created by teh raptor</div>
   </div>
 </footer>
