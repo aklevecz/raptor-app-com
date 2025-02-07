@@ -91,6 +91,9 @@
                 {/if}
             </div>
         {/if}
+        <button on:click={handleTestFlightClick}>
+            Install Raptor App
+        </button>
     </div>
 {/if}
 
