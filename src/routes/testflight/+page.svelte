@@ -90,10 +90,11 @@
                     </p>
                 {/if}
             </div>
+            <button on:click={handleTestFlightClick}>
+                Install Raptor App
+            </button>
         {/if}
-        <button on:click={handleTestFlightClick}>
-            Install Raptor App
-        </button>
+
     </div>
 {/if}
 
