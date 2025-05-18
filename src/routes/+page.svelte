@@ -7,9 +7,10 @@
   <p class="lg" style="text-align:center;">Want to discover eggs? Download the app and get out there 🥚</p>
   <button
     onclick={() => {
-      let testflightLink = "https://testflight.apple.com/join/XYbB7YSU";
-      window.open(testflightLink);
-    }}>Help Test!</button
+      // let testflightLink = "https://testflight.apple.com/join/XYbB7YSU";
+      let appLink = 'https://apps.apple.com/us/app/raptor-app/id6741381341'
+      window.open(appLink);
+    }}>Download the app!</button
   >
 </div>
 <!-- <div style="flex:1 0 100%;text-align:center;height:100px;margin-top:4rem;">
