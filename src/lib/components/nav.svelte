@@ -21,7 +21,7 @@
 <style>
   nav {
     position: fixed;
-    bottom: 200px;
+    top: 100px;
     right: 0px;
     display: flex;
     flex-wrap: wrap;
@@ -38,8 +38,8 @@
     font-weight: bold;
   }
   .menu-btn {
-    position: sticky;
-    bottom: 12px;
+    position: absolute;
+    top: 12px;
     left: 69%;
     margin-bottom:1rem;
     z-index: 1000;

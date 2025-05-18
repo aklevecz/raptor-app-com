@@ -24,8 +24,8 @@
     flex: 1 0 45%;
   }
   .smiler {
-    width: 200px;
-    height: 200px;
+    width: 120px;
+    height: 120px;
   }
 
   @media (min-width: 768px) {
