@@ -42,9 +42,9 @@
   <title>Raptor App</title>
   <meta
     name="description"
-    content="Raptor App is your ultimate gateway to parties and egg discovery. Join the community and start hunting for eggs today!"
+    content="Raptor Egg Hunt — April 5th in the Mission District, SF. Find hidden NFC eggs, collect points, and win concert tickets with golden eggs!"
   />
-  <meta name="keywords" content="party finder, egg discovery, digital events, party app, social events" />
+  <meta name="keywords" content="egg hunt, NFC, scavenger hunt, mission district, san francisco, concert tickets, raptor" />
   <meta name="author" content="teh raptor" />
 
   <!-- Open Graph / Facebook -->
@@ -53,7 +53,7 @@
   <meta property="og:title" content="Raptor App" />
   <meta
     property="og:description"
-    content="Your gateway to parties and egg discovery. Join Raptor App and start exploring today!"
+    content="Easter Egg Hunt — April 5th, Mission District SF. Find hidden NFC eggs and win concert tickets!"
   />
   <meta property="og:image" content="https://app.raptor.pizza/seo.jpg" />
 
@@ -70,7 +70,7 @@
   <meta property="twitter:title" content="Raptor App" />
   <meta
     property="twitter:description"
-    content="Your gateway to parties and egg discovery. Join Raptor App and start exploring today!"
+    content="Easter Egg Hunt — April 5th, Mission District SF. Find hidden NFC eggs and win concert tickets!"
   />
   <meta property="twitter:image" content="https://app.raptor.pizza/seo.jpg" />
 
